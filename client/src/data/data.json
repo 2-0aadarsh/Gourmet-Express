@@ -1,0 +1,264 @@
+{
+  "appConfig": {
+    "appName": "Gourmet Express",
+    "theme": {
+      "primaryColor": "#ff6b35",
+      "primaryDark": "#e55a2b",
+      "secondaryColor": "#2a9d8f",
+      "darkColor": "#264653",
+      "lightColor": "#f8f9fa",
+      "fontFamily": "'Poppins', sans-serif"
+    }
+  },
+  
+  "header": {
+    "logo": {
+      "text": "Gourmet Express",
+      "icon": "fas fa-utensils"
+    },
+    "navigation": [
+      {"id": 1, "name": "Home", "path": "/", "active": true},
+      {"id": 2, "name": "Restaurants", "path": "/restaurants"},
+      {"id": 3, "name": "Categories", "path": "/categories"},
+      {"id": 4, "name": "Deals", "path": "/deals"},
+      {"id": 5, "name": "My Orders", "path": "/orders"}
+    ],
+    "searchPlaceholder": "Search food or restaurant...",
+    "cartCount": 3,
+    "authActions": [
+      {"id": 1, "type": "signin", "text": "Sign In", "variant": "outline"}
+    ]
+  },
+  
+  "heroSection": {
+    "backgroundImage": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+    "title": "Delicious food delivered to your doorstep",
+    "subtitle": "Discover the best restaurants in your city and enjoy fresh food at home",
+    "ctaButton": {
+      "text": "Order Now",
+      "icon": "fas fa-search"
+    }
+  },
+  
+  "categories": {
+    "title": "Popular Categories",
+    "subtitle": "Browse through our diverse food categories to find your favorite cuisine",
+    "items": [
+      {
+        "id": 1,
+        "name": "Pizza",
+        "restaurantCount": 42,
+        "icon": "fas fa-pizza-slice"
+      },
+      {
+        "id": 2,
+        "name": "Burgers",
+        "restaurantCount": 35,
+        "icon": "fas fa-hamburger"
+      },
+      {
+        "id": 3,
+        "name": "Desserts",
+        "restaurantCount": 28,
+        "icon": "fas fa-ice-cream"
+      },
+      {
+        "id": 4,
+        "name": "Breakfast",
+        "restaurantCount": 24,
+        "icon": "fas fa-mug-hot"
+      },
+      {
+        "id": 5,
+        "name": "Chicken",
+        "restaurantCount": 31,
+        "icon": "fas fa-drumstick-bite"
+      },
+      {
+        "id": 6,
+        "name": "Vegetarian",
+        "restaurantCount": 19,
+        "icon": "fas fa-leaf"
+      }
+    ]
+  },
+  
+  "popularDishes": {
+    "title": "Popular Dishes",
+    "subtitle": "Most ordered dishes by our customers this week",
+    "items": [
+      {
+        "id": 101,
+        "name": "Margherita Pizza",
+        "price": 12.99,
+        "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+        "rating": 4.8,
+        "reviewCount": 120,
+        "prepTime": 25,
+        "badge": "Popular",
+        "restaurant": "Pizza Heaven"
+      },
+      {
+        "id": 102,
+        "name": "Gourmet Burger",
+        "price": 14.50,
+        "description": "Premium beef patty with special sauce and fresh vegetables",
+        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+        "rating": 4.9,
+        "reviewCount": 98,
+        "prepTime": 20,
+        "badge": "Chef's Choice",
+        "restaurant": "Burger Palace"
+      },
+      {
+        "id": 103,
+        "name": "Caesar Salad",
+        "price": 9.99,
+        "description": "Fresh romaine lettuce with Caesar dressing and croutons",
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+        "rating": 4.7,
+        "reviewCount": 85,
+        "prepTime": 15,
+        "restaurant": "Green Garden"
+      },
+      {
+        "id": 104,
+        "name": "Spaghetti Carbonara",
+        "price": 13.75,
+        "description": "Classic Italian pasta with creamy sauce and bacon",
+        "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+        "rating": 4.8,
+        "reviewCount": 76,
+        "prepTime": 30,
+        "badge": "New",
+        "restaurant": "Pasta Amore"
+      }
+    ]
+  },
+  
+  "featuredRestaurants": {
+    "title": "Featured Restaurants",
+    "subtitle": "Top-rated restaurants near your location",
+    "items": [
+      {
+        "id": 201,
+        "name": "La Bella Italia",
+        "type": "Italian",
+        "rating": 4.9,
+        "reviewCount": 420,
+        "distance": 1.2,
+        "deliveryFee": 2.99,
+        "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9"
+      },
+      {
+        "id": 202,
+        "name": "Sushi Masters",
+        "type": "Japanese",
+        "rating": 4.8,
+        "reviewCount": 356,
+        "distance": 0.8,
+        "deliveryFee": 3.49,
+        "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c"
+      },
+      {
+        "id": 203,
+        "name": "Burger Factory",
+        "type": "American",
+        "rating": 4.7,
+        "reviewCount": 512,
+        "distance": 0.5,
+        "deliveryFee": 1.99,
+        "image": "https://images.unsplash.com/photo-1554679665-f5537f187268"
+      }
+    ]
+  },
+  
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Get your favorite food in 4 simple steps",
+    "steps": [
+      {
+        "number": 1,
+        "title": "Choose Restaurant",
+        "description": "Browse through our list of restaurants and select your favorite"
+      },
+      {
+        "number": 2,
+        "title": "Select Food",
+        "description": "Add delicious items to your cart from the restaurant menu"
+      },
+      {
+        "number": 3,
+        "title": "Make Payment",
+        "description": "Pay securely online with various payment methods"
+      },
+      {
+        "number": 4,
+        "title": "Fast Delivery",
+        "description": "Track your order in real-time and enjoy fresh food"
+      }
+    ]
+  },
+  
+  "appDownload": {
+    "title": "Get the App",
+    "description": "Download our mobile app for faster ordering and exclusive deals",
+    "buttons": [
+      {
+        "id": "ios",
+        "icon": "fab fa-apple",
+        "text1": "Download on the",
+        "text2": "App Store"
+      },
+      {
+        "id": "android",
+        "icon": "fab fa-google-play",
+        "text1": "Get it on",
+        "text2": "Google Play"
+      }
+    ],
+    "image": "https://i.ibb.co/0J5qF7v/app-mockup.png"
+  },
+  
+  "footer": {
+    "about": {
+      "text": "Delivering delicious meals to your doorstep with speed and care. We partner with the best restaurants to bring you a wide variety of cuisines.",
+      "socialLinks": [
+        {"icon": "fab fa-facebook-f", "url": "#"},
+        {"icon": "fab fa-twitter", "url": "#"},
+        {"icon": "fab fa-instagram", "url": "#"},
+        {"icon": "fab fa-linkedin-in", "url": "#"}
+      ]
+    },
+    "links": [
+      {
+        "title": "Quick Links",
+        "items": [
+          {"name": "Home", "url": "/"},
+          {"name": "About Us", "url": "/about"},
+          {"name": "Services", "url": "/services"},
+          {"name": "Restaurants", "url": "/restaurants"},
+          {"name": "Contact", "url": "/contact"}
+        ]
+      },
+      {
+        "title": "Categories",
+        "items": [
+          {"name": "Pizza", "url": "/category/pizza"},
+          {"name": "Burgers", "url": "/category/burgers"},
+          {"name": "Sushi", "url": "/category/sushi"},
+          {"name": "Pasta", "url": "/category/pasta"},
+          {"name": "Desserts", "url": "/category/desserts"}
+        ]
+      }
+    ],
+    "contact": {
+      "address": "123 Food Street, New York, NY",
+      "phone": "+1 (555) 123-4567",
+      "email": "info@gourmetexpress.com",
+      "hours": "Mon-Sun: 9:00 AM - 11:00 PM"
+    },
+    "copyright": "© 2023 Gourmet Express. All rights reserved."
+  }
+}
