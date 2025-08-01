@@ -228,12 +228,13 @@
     "about": {
       "text": "Delivering delicious meals to your doorstep with speed and care. We partner with the best restaurants to bring you a wide variety of cuisines.",
       "socialLinks": [
-        {"icon": "fab fa-facebook-f", "url": "#"},
-        {"icon": "fab fa-twitter", "url": "#"},
-        {"icon": "fab fa-instagram", "url": "#"},
-        {"icon": "fab fa-linkedin-in", "url": "#"}
+        { "icon": "FaFacebook", "url": "#" },
+        { "icon": "FaTwitter", "url": "#" },
+        { "icon": "FaInstagram", "url": "#" },
+        { "icon": "FaLinkedinIn", "url": "#" }
       ]
     },
+
     "links": [
       {
         "title": "Quick Links",
@@ -253,6 +254,15 @@
           {"name": "Sushi", "url": "/category/sushi"},
           {"name": "Pasta", "url": "/category/pasta"},
           {"name": "Desserts", "url": "/category/desserts"}
+        ]
+      },
+      {
+        "title": "Contact Us",
+        "items": [
+          {"address": "123 Food Street, New York, NY"},
+          {"phone": "+1 (555) 123-4567"},
+          {"email": "info@gourmetexpress.com"},
+          {"hours": "Mon-Sun: 9:00 AM - 11:00 PM"}
         ]
       }
     ],

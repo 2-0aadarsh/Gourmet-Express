@@ -19,6 +19,7 @@ const AppDownload = () => {
               <div
                 key={button.id}
                 className="relative w-56 h-20 flex items-center gap-2 px-3 text-white border-[1px] border-[#f8f9fa65] rounded-xl overflow-hidden"
+                tabIndex={0}
               >
                 <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full bg-white opacity-15  z-20"></div>
                 <div className="icon text-4xl">

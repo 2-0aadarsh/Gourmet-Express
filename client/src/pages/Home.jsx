@@ -1,4 +1,5 @@
 import AppDownload from "../components/home/AppDownload";
+import Footer from "../components/home/Footer";
 import Header from "../components/home/Header";
 import Hero from "../components/home/Hero";
 import SectionWrapper from "../components/utility/SectionWrapper";
@@ -19,16 +20,8 @@ const Home = () => {
     <Hero />
     <SectionWrapper  />
     <AppDownload />
-
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <Footer />
+    
   </div>;
 };
 
