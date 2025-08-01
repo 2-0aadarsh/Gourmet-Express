@@ -1,5 +1,7 @@
+import AppDownload from "../components/home/AppDownload";
 import Header from "../components/home/Header";
 import Hero from "../components/home/Hero";
+import SectionWrapper from "../components/utility/SectionWrapper";
 
 /* 
   <Header/>
@@ -15,6 +17,18 @@ const Home = () => {
   return <div>
     <Header />
     <Hero />
+    <SectionWrapper  />
+    <AppDownload />
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
   </div>;
 };
 

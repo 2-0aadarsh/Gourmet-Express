@@ -40,166 +40,169 @@
     }
   },
   
-  "categories": {
-    "title": "Popular Categories",
-    "subtitle": "Browse through our diverse food categories to find your favorite cuisine",
-    "items": [
-      {
-        "id": 1,
-        "name": "Pizza",
-        "restaurantCount": 42,
-        "icon": "fas fa-pizza-slice"
-      },
-      {
-        "id": 2,
-        "name": "Burgers",
-        "restaurantCount": 35,
-        "icon": "fas fa-hamburger"
-      },
-      {
-        "id": 3,
-        "name": "Desserts",
-        "restaurantCount": 28,
-        "icon": "fas fa-ice-cream"
-      },
-      {
-        "id": 4,
-        "name": "Breakfast",
-        "restaurantCount": 24,
-        "icon": "fas fa-mug-hot"
-      },
-      {
-        "id": 5,
-        "name": "Chicken",
-        "restaurantCount": 31,
-        "icon": "fas fa-drumstick-bite"
-      },
-      {
-        "id": 6,
-        "name": "Vegetarian",
-        "restaurantCount": 19,
-        "icon": "fas fa-leaf"
-      }
-    ]
-  },
+  "categories": [
+    {
+      "title": "Popular Categories",
+      "subtitle": "Browse through our diverse food categories to find your favorite cuisine",
+      "items": [
+        {
+          "id": 1,
+          "name": "Pizza",
+          "restaurantCount": 42,
+          "icon": "fas fa-pizza-slice"
+        },
+        {
+          "id": 2,
+          "name": "Burgers",
+          "restaurantCount": 35,
+          "icon": "fas fa-hamburger"
+        },
+        {
+          "id": 3,
+          "name": "Desserts",
+          "restaurantCount": 28,
+          "icon": "fas fa-ice-cream"
+        },
+        {
+          "id": 4,
+          "name": "Breakfast",
+          "restaurantCount": 24,
+          "icon": "fas fa-mug-hot"
+        },
+        {
+          "id": 5,
+          "name": "Chicken",
+          "restaurantCount": 31,
+          "icon": "fas fa-drumstick-bite"
+        },
+        {
+          "id": 6,
+          "name": "Vegetarian",
+          "restaurantCount": 19,
+          "icon": "fas fa-leaf"
+        }
+      ]
+    },
+
+    {
+      "title": "Popular Dishes",
+      "subtitle": "Most ordered dishes by our customers this week",
+      "items": [
+        {
+          "id": 101,
+          "name": "Margherita Pizza",
+          "price": 12.99,
+          "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil",
+          "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
+          "rating": 4.8,
+          "reviewCount": 120,
+          "prepTime": 25,
+          "badge": "Popular",
+          "restaurant": "Pizza Heaven"
+        },
+        {
+          "id": 102,
+          "name": "Gourmet Burger",
+          "price": 14.50,
+          "description": "Premium beef patty with special sauce and fresh vegetables",
+          "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
+          "rating": 4.9,
+          "reviewCount": 98,
+          "prepTime": 20,
+          "badge": "Chef's Choice",
+          "restaurant": "Burger Palace"
+        },
+        {
+          "id": 103,
+          "name": "Caesar Salad",
+          "price": 9.99,
+          "description": "Fresh romaine lettuce with Caesar dressing and croutons",
+          "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
+          "rating": 4.7,
+          "reviewCount": 85,
+          "prepTime": 15,
+          "restaurant": "Green Garden"
+        },
+        {
+          "id": 104,
+          "name": "Spaghetti Carbonara",
+          "price": 13.75,
+          "description": "Classic Italian pasta with creamy sauce and bacon",
+          "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
+          "rating": 4.8,
+          "reviewCount": 76,
+          "prepTime": 30,
+          "badge": "New",
+          "restaurant": "Pasta Amore"
+        }
+      ]
+    },
+
+    {
+      "title": "Featured Restaurants",
+      "subtitle": "Top-rated restaurants near your location",
+      "items": [
+        {
+          "id": 201,
+          "name": "La Bella Italia",
+          "type": "Italian",
+          "rating": 4.9,
+          "reviewCount": 420,
+          "distance": 1.2,
+          "deliveryFee": 2.99,
+          "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9"
+        },
+        {
+          "id": 202,
+          "name": "Sushi Masters",
+          "type": "Japanese",
+          "rating": 4.8,
+          "reviewCount": 356,
+          "distance": 0.8,
+          "deliveryFee": 3.49,
+          "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c"
+        },
+        {
+          "id": 203,
+          "name": "Burger Factory",
+          "type": "American",
+          "rating": 4.7,
+          "reviewCount": 512,
+          "distance": 0.5,
+          "deliveryFee": 1.99,
+          "image": "https://images.unsplash.com/photo-1554679665-f5537f187268"
+        }
+      ]
+    },
+    
+    {
+      "title": "How It Works",
+      "subtitle": "Get your favorite food in 4 simple steps",
+      "steps": [
+        {
+          "number": 1,
+          "title": "Choose Restaurant",
+          "description": "Browse through our list of restaurants and select your favorite"
+        },
+        {
+          "number": 2,
+          "title": "Select Food",
+          "description": "Add delicious items to your cart from the restaurant menu"
+        },
+        {
+          "number": 3,
+          "title": "Make Payment",
+          "description": "Pay securely online with various payment methods"
+        },
+        {
+          "number": 4,
+          "title": "Fast Delivery",
+          "description": "Track your order in real-time and enjoy fresh food"
+        }
+      ]
+    }
+  ],
   
-  "popularDishes": {
-    "title": "Popular Dishes",
-    "subtitle": "Most ordered dishes by our customers this week",
-    "items": [
-      {
-        "id": 101,
-        "name": "Margherita Pizza",
-        "price": 12.99,
-        "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil",
-        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38",
-        "rating": 4.8,
-        "reviewCount": 120,
-        "prepTime": 25,
-        "badge": "Popular",
-        "restaurant": "Pizza Heaven"
-      },
-      {
-        "id": 102,
-        "name": "Gourmet Burger",
-        "price": 14.50,
-        "description": "Premium beef patty with special sauce and fresh vegetables",
-        "image": "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-        "rating": 4.9,
-        "reviewCount": 98,
-        "prepTime": 20,
-        "badge": "Chef's Choice",
-        "restaurant": "Burger Palace"
-      },
-      {
-        "id": 103,
-        "name": "Caesar Salad",
-        "price": 9.99,
-        "description": "Fresh romaine lettuce with Caesar dressing and croutons",
-        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd",
-        "rating": 4.7,
-        "reviewCount": 85,
-        "prepTime": 15,
-        "restaurant": "Green Garden"
-      },
-      {
-        "id": 104,
-        "name": "Spaghetti Carbonara",
-        "price": 13.75,
-        "description": "Classic Italian pasta with creamy sauce and bacon",
-        "image": "https://images.unsplash.com/photo-1565958011703-44f9829ba187",
-        "rating": 4.8,
-        "reviewCount": 76,
-        "prepTime": 30,
-        "badge": "New",
-        "restaurant": "Pasta Amore"
-      }
-    ]
-  },
-  
-  "featuredRestaurants": {
-    "title": "Featured Restaurants",
-    "subtitle": "Top-rated restaurants near your location",
-    "items": [
-      {
-        "id": 201,
-        "name": "La Bella Italia",
-        "type": "Italian",
-        "rating": 4.9,
-        "reviewCount": 420,
-        "distance": 1.2,
-        "deliveryFee": 2.99,
-        "image": "https://images.unsplash.com/photo-1552566626-52f8b828add9"
-      },
-      {
-        "id": 202,
-        "name": "Sushi Masters",
-        "type": "Japanese",
-        "rating": 4.8,
-        "reviewCount": 356,
-        "distance": 0.8,
-        "deliveryFee": 3.49,
-        "image": "https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c"
-      },
-      {
-        "id": 203,
-        "name": "Burger Factory",
-        "type": "American",
-        "rating": 4.7,
-        "reviewCount": 512,
-        "distance": 0.5,
-        "deliveryFee": 1.99,
-        "image": "https://images.unsplash.com/photo-1554679665-f5537f187268"
-      }
-    ]
-  },
-  
-  "howItWorks": {
-    "title": "How It Works",
-    "subtitle": "Get your favorite food in 4 simple steps",
-    "steps": [
-      {
-        "number": 1,
-        "title": "Choose Restaurant",
-        "description": "Browse through our list of restaurants and select your favorite"
-      },
-      {
-        "number": 2,
-        "title": "Select Food",
-        "description": "Add delicious items to your cart from the restaurant menu"
-      },
-      {
-        "number": 3,
-        "title": "Make Payment",
-        "description": "Pay securely online with various payment methods"
-      },
-      {
-        "number": 4,
-        "title": "Fast Delivery",
-        "description": "Track your order in real-time and enjoy fresh food"
-      }
-    ]
-  },
   
   "appDownload": {
     "title": "Get the App",
@@ -207,7 +210,7 @@
     "buttons": [
       {
         "id": "ios",
-        "icon": "fab fa-apple",
+        "icon": "<faApple />",
         "text1": "Download on the",
         "text2": "App Store"
       },

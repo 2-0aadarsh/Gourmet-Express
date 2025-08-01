@@ -13,7 +13,7 @@ const Hero = () => {
 
   return (
     <section className="relative">
-      <div className="hero-section w-full h-[500px] overflow-hidden">
+      <div className="hero-section w-full h-[550px] overflow-hidden">
         <img
           src={backgroundImage}
           className="w-full h-full object-cover "
@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 to-black/60"></div>
 
       {/* Content on top */}
-      <div className="absolute top-0 bottom-0 max-w-[600px] min-w-[600px] text-white pt-16 pl-6 flex flex-col items-start gap-6">
+      <div className="absolute top-0 bottom-0 max-w-[600px] min-w-[600px] text-white pt-16 pl-16 flex flex-col items-start gap-6">
         <h1 className="text-[3.5rem] leading-[1.2] font-bold">
           Delicious food delivered to your doorstep
         </h1>
